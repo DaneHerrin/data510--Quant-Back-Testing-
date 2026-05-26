@@ -1,6 +1,6 @@
 # <Project Name>
 
-> One-sentence description of what this project is about. Replace this entire block before week 3.
+> This project will construct different sector portfolios and back test them through growth years (times when the markets made steady gains) and draw down, or volatile years (market crashes) and then categorize those portfolios into three classes, fragile (portfolios that are destroyed or negatively impact with long recovery times), robust (smaller draw down and quicker recovery), or antifragile (made gains in volatile times). 
 
 ## Quick reference
 
