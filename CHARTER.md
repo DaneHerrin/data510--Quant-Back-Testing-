@@ -31,7 +31,11 @@ This project aims to develop a portfolio optimization framework that balances pr
 ## Context
 
 - **Users / affected parties:** who benefits, who is at risk, who might use the result.
-    - Financial Analysis, investment firms, independent investors, portfolio managers, retail investors, investment clubs, financial educators, institutional investors, people seeking building asset portfolios (wanting to resist asset volatility)
+    - Financial Analysis
+    -  investment firms
+    -   independent investors
+    - portfolio managers,
+    - retail investors, investment clubs, financial educators, institutional investors, people seeking building asset portfolios (wanting to resist asset volatility)
 
 - **Data sources (proposed):** named sources, access status, license / ethics notes.
 - **Constraints:** time, compute, access, skills, scope.
