@@ -93,17 +93,20 @@ Each crisis has different causes, such as credit collapse, pandemic shock, infla
 
 ## Success criteria by milestone
 
-- **M1, proposal (W4):** <measurable criterion>
-- **M2, data summary (W7):** <measurable criterion>
-- **M3, poster rough draft (W10):** <measurable criterion>
-- **M4, write-up rough draft (W12):** <measurable criterion>
-- **M5, final write-up and poster (W14):** <measurable criterion>
+- **M1, proposal (W4):** Complete proposal, research questions, scope of work, and next steps
+- **M2, data summary (W7):** All historical data is collected, pipeline established, EDA started
+- **M3, poster rough draft (W10):** Digital mock up of the poster fully done with all information on it (graphs, findings, research questions)
+- **M4, write-up rough draft (W12):** Write the research paper and checked it by the professor.
+- **M5, final write-up and poster (W14):** Physical copies of both that is checked by the professor and exceeds the rubric.
 
 ## Working agreements (internal to owner team)
 
 - **Sync rhythm:** <e.g., one async standup per weekday in `#<project>-standup`>
-- **Code review:** <who reviews what, by when>
-- **Decision rule:** <how the team decides when it disagrees>
+  - Async and check-in (Fridays 8pm, potental call 7pm) 
+- **Code review:** <who reviews what, by when
+  - Both check over eachother code (due by Fridays 8pm)
+- **Decision rule:** 
+  - Talk through, Dane has final say
 
 ## Working agreements (triad with peer POs)
 
