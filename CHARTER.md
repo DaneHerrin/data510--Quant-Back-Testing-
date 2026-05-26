@@ -22,7 +22,7 @@
 
 ## Vision
 
-One or two sentences. The world (or organization, or domain) if this project succeeds.
+To create an innovative lens in which to view risk and portfolio construction
 
 ## Mission
 
