@@ -104,7 +104,7 @@ Each crisis has different causes, such as credit collapse, pandemic shock, infla
 
 ## Working agreements (internal to owner team)
 
-- **Sync rhythm:** (one async standup per weekday in `#project4-standup`)
+- **Sync rhythm:** (one async standup per weekday in `#Project 4: Alex & Dane-standup`)
   - Async and check-in (Fridays 8pm, potental call 7pm)
     
 - **Code review:**
@@ -115,7 +115,7 @@ Each crisis has different causes, such as credit collapse, pandemic shock, infla
 
 ## Working agreements (triad with peer POs)
 
-- **Studio Brief due:** By midnight Sunday, committed to `studio/briefs/W<NN>-<peer>.md` and linked in `#Project 4-studio` on Discord.
+- **Studio Brief due:** By midnight Sunday, committed to `studio/briefs/W<NN>-<peer>.md` and linked in `#Project 4: Alex & Dane-studio` on Discord.
   
 - **Studio Critique due:** By Midnight Monday
   
