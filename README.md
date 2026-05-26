@@ -6,13 +6,13 @@
 
 | Field | Value |
 |-------|-------|
-| Owner team | <names> |
-| Owner Product Lead | <name> |
-| Peer Stakeholder POs | <names of your 2 or 3 peer PO individuals> |
-| Studio Session | <1, 2, or 3> |
-| GitHub repo | <link to this repo> |
+| Owner team | <Dane Herrin, Alexander Jackson> |
+| Owner Product Lead | <Dane Herrin> |
+| Peer Stakeholder POs | <Ben Dyer, Luca Casano, Manish Reddy Kallu> |
+| Studio Session | <3> |
+| GitHub repo | <(https://github.com/awjackson00/data510--Quant-Back-Testing-/)> |
 | GitHub Projects board | <link> |
-| Discord category | `#<project>-*` |
+| Discord category | `Project 4: Alex & Dane` |
 | Instructor / Sponsor | Lucas Cordova (`LucasCordova` on GitHub) |
 
 ## What this repo contains
