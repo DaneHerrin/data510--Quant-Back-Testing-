@@ -1,4 +1,4 @@
-# Studio Charter: <project name>
+# Studio Charter: Quantatative Back Testing
 
 > Filled in live during the **Studio Charter** session in week 3. Every section below is committed in the same commit at the end of that class block. See [Studio Charter (single-session inception)](https://courses.lpcordova.phd/data510/project-framework/charter-inception.html) for the script and time-boxes.
 
@@ -12,7 +12,7 @@
 
 **GitHub repo:** https://github.com/awjackson00/data510--Quant-Back-Testing-/
 
-**GitHub Projects board:** <link>
+**GitHub Projects board:** https://github.com/users/awjackson00/projects/2/views/1
 
 **Discord category:** `#Project 4`
 
@@ -42,7 +42,6 @@ This project aims to develop a portfolio optimization framework that balances pr
     -    Anyone seeking building asset portfolios (wanting to resist asset volatility)
 
 - **Data sources (proposed):** named sources, access status, license / ethics notes.
-
 
   
 - **Constraints:** time, compute, access, skills, scope.
@@ -108,7 +107,7 @@ Each crisis has different causes, such as credit collapse, pandemic shock, infla
 - **Sync rhythm:** (one async standup per weekday in `#project4-standup`)
   - Async and check-in (Fridays 8pm, potental call 7pm)
     
-- **Code review:** <who reviews what, by when
+- **Code review:**
   - Both check over eachother code (due by Fridays 8pm)
     
 - **Decision rule:** 
