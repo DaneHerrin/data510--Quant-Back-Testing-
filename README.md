@@ -7,7 +7,7 @@
 | Field | Value |
 |-------|-------|
 | Owner team | <Dane Herrin, Alexander Jackson> |
-| Owner Product Lead | <Dane Herrin,> |
+| Owner Product Lead | <`Dane Herrin`> |
 | Peer Stakeholder POs | <Ben Dyer, Luca Casano, Manish Reddy Kallu> |
 | Studio Session | <3> |
 | GitHub repo | <(https://github.com/awjackson00/data510--Quant-Back-Testing-/)> |
