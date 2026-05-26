@@ -26,7 +26,7 @@ To create an innovative lens in which to view risk and portfolio construction
 
 ## Mission
 
-One or two sentences. What the owner team will actually do this semester.
+This project aims to develop a portfolio optimization framework that balances projected gains with drawdown resistance. By testing student-constructed portfolios across historical market crises, the project will evaluate which asset allocations, sectors, and diversification strategies produce stronger risk-adjusted performance. The broader goal is to help students make more disciplined investment decisions by understanding not only how portfolios grow in normal markets, but also how they survive during financial uncertainty.
 
 ## Context
 
