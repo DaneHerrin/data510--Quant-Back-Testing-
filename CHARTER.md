@@ -44,6 +44,8 @@ This project aims to develop a portfolio optimization framework that balances pr
 - **Data sources (proposed):** named sources, access status, license / ethics notes.
 - **Constraints:** time, compute, access, skills, scope.
 - **Ethics risks:** consent, retention, PII, fairness, deployment risk.
+  
+  Due to the nature of the data that we are sourcing, currently there are no ethical concerns. All of the data is public, and all of the corporations we would be looking into are publicly traded. All the industries we would be comparing against, post their data publicly. The only concern could be that we would be taking aggregates and averages, which is not a complete look into specific industries / areas.
 
 ## Success criteria by milestone
 
