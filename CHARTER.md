@@ -6,7 +6,7 @@
 
 **Owner Product Lead:** Dane Herrin
 
-**Peer Stakeholder POs:** Ben Dyer	Luca Casano	Manish Reddy Kallu
+**Peer Stakeholder POs:** Ben Dyer, Luca Casano, Manish Reddy Kallu
 
 **Instructor / Sponsor:** Lucas Cordova (`LucasCordova` on GitHub)
 
