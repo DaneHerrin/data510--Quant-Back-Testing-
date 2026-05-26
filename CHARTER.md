@@ -26,7 +26,7 @@ To create an innovative lens through which shareholders can view risk and portfo
 
 ## Mission
 
-This project aims to develop a portfolio optimization framework that balances projected gains with drawdown resistance. By testing shareholder-constructed portfolios across historical market crises, the project will evaluate which asset allocations, sectors, and diversification strategies produce stronger risk-adjusted performance. The broader goal is to help shareholders make more disciplined investment decisions by understanding not only how portfolios grow in normal markets, but also how they survive during financial uncertainty.
+This project aims to develop a portfolio optimization framework that balances projected gains with drawdown resistance. By testing specially constructed portfolios across historical market crises, the project will evaluate which asset allocations, sectors, and diversification strategies produce stronger risk-adjusted performance. The broader goal is to help shareholders make more disciplined investment decisions by understanding not only how portfolios grow in normal markets, but also how they survive during financial uncertainty.
 
 ## Context
 
