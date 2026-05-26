@@ -42,45 +42,48 @@ This project aims to develop a portfolio optimization framework that balances pr
     -    Anyone seeking building asset portfolios (wanting to resist asset volatility)
 
 - **Data sources (proposed):** named sources, access status, license / ethics notes.
+
+
+  
 - **Constraints:** time, compute, access, skills, scope.
 
-1. Data Availability
+*1. Data Availability*
 
 The project depends on access to reliable historical financial data for stocks, ETFs, sectors, and benchmarks. Some data sources may have missing values, limited history, adjusted prices, or restrictions on download volume.
 
-2. Crisis Period Selection
+*2. Crisis Period Selection*
 
 The results will depend heavily on which financial crises are selected. A portfolio may perform well during one crisis but poorly during another, so the project needs a clear and limited set of crisis periods, such as the 2008 financial crisis, COVID-19 crash, and 2022 inflation/rate-hike period.
 
-3. Portfolio Scope
+*3. Portfolio Scope*
 
 The number of student-constructed portfolios must stay manageable. Too many portfolios, assets, or rebalancing rules could make the analysis too broad for one term.
 
-4. Asset Comparability
+*4. Asset Comparability*
 
 Different portfolios may contain different asset types, such as stocks, ETFs, bonds, crypto, or commodities. To keep the project fair and comparable, the analysis may need to use standardized asset classes or ETF proxies.
 
-5. Backtesting Assumptions
+*5. Backtesting Assumptions*
 
 Backtesting requires assumptions about starting capital, portfolio weights, rebalancing frequency, transaction costs, dividends, and whether short selling is allowed. These assumptions can significantly affect results.
 
-6. Historical Bias
+*6. Historical Bias*
 
 Past performance does not guarantee future results. The project can show how portfolios would have performed historically, but it cannot prove how they will perform in future crises.
 
-7. Investment Advice Risk
+*7. Investment Advice Risk*
 
 The project should be framed as an educational analysis, not financial advice. Results should not be presented as recommendations to buy, sell, or avoid specific assets.
 
-8. Time and Technical Scope
+*8. Time and Technical Scope*
 
 The project must be realistic for a term-length capstone. The analysis should focus on a small number of crisis periods, a clear set of portfolios, and a manageable number of performance metrics.
 
-9. Student Privacy and Fairness
+*9. Student Privacy and Fairness*
 
 If student-created portfolios are used, they should be anonymized. The goal should be to analyze portfolio construction patterns, not embarrass or rank individual students.
 
-10. Market Regime Differences
+*10. Market Regime Differences*
 
 Each crisis has different causes, such as credit collapse, pandemic shock, inflation, or interest-rate changes. The project must be careful when comparing results across crises because the same portfolio may react differently depending on the type of market stress.
   
