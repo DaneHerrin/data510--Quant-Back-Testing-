@@ -2,15 +2,15 @@
 
 > Filled in live during the **Studio Charter** session in week 3. Every section below is committed in the same commit at the end of that class block. See [Studio Charter (single-session inception)](https://courses.lpcordova.phd/data510/project-framework/charter-inception.html) for the script and time-boxes.
 
-**Owner team:** <names>
-**Owner Product Lead:** <name>
-**Peer Stakeholder POs:** <names of your 2 or 3 peer PO individuals>
+**Owner team:** Dane Herrin, Alexander Jackson
+**Owner Product Lead:** Dane Herrin
+**Peer Stakeholder POs:** Ben Dyer	Luca Casano	Manish Reddy Kallu
 **Instructor / Sponsor:** Lucas Cordova (`LucasCordova` on GitHub)
-**GitHub repo:** <link to this repo>
+**GitHub repo:** https://github.com/awjackson00/data510--Quant-Back-Testing-/
 **GitHub Projects board:** <link>
-**Discord category:** `#<project>-*`
-**Studio Session:** <1, 2, or 3>
-**Studio formed:** <date>
+**Discord category:** `#Project 4`
+**Studio Session:** 3
+**Studio formed:** 5/25/2026
 
 ## Vision
 
