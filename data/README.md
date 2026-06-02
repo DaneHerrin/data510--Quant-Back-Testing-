@@ -28,14 +28,15 @@ data/
 
 ### Dataset 1: <name>
 
-- **Source:** <URL or contact>
-- **License:** <name and short summary>
-- **Date pulled:** <YYYY-MM-DD>
+- **Source:** <yahoo.finance>
+- **License:** <open source>
+- **Date pulled:** <2026-05-20>
 - **Approximate size:** <rows, columns, bytes>
-- **Owner on this project:** <name>
+- **Owner on this project:** <Yahoo Finance>
 - **Where it lives in this repo:** `data/raw/<name>/` (gitignored) or `data/processed/<name>.csv`
-- **Ethics / consent notes:** <PII? consent process? data use agreement?>
-- **How to fetch (for a teammate cloning fresh):** <command, script, or contact>
+- **Ethics / consent notes:** <Open source finance data with limited daily calls>
+- **How to fetch (for a teammate cloning fresh):** <raw_prices = yf.download(all_equity, start=START, end=END)["Close"]
+raw_prices.columns.name = None>
 
 ### Dataset 2: <name>
 
