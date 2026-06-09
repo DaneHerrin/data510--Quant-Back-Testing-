@@ -2,14 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Your Name">
-<meta name="author" content="Teammate Two">
-<meta name="author" content="Teammate Three">
-<meta name="dcterms.date" content="2026-06-08">
+<meta name="author" content="Dane Herrin">
+<meta name="author" content="Alexander Jackson">
+<meta name="dcterms.date" content="2026-06-09">
 
 <title>Capstone Project Write-Up</title>
 <style>
@@ -85,14 +84,15 @@ div.csl-indent {
 <script src="writeup-skeleton_files/libs/clipboard/clipboard.min.js"></script>
 <script src="writeup-skeleton_files/libs/quarto-html/quarto.js" type="module"></script>
 <script src="writeup-skeleton_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="writeup-skeleton_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="writeup-skeleton_files/libs/quarto-html/popper.min.js"></script>
 <script src="writeup-skeleton_files/libs/quarto-html/tippy.umd.min.js"></script>
 <script src="writeup-skeleton_files/libs/quarto-html/anchor.min.js"></script>
 <link href="writeup-skeleton_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="writeup-skeleton_files/libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="writeup-skeleton_files/libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="writeup-skeleton_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="writeup-skeleton_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="writeup-skeleton_files/libs/bootstrap/bootstrap-bb462d781dde1847d9e3ccf7736099dd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="writeup-skeleton_files/libs/bootstrap/bootstrap-6a385cc6a3e5c704cd6b26fa7b6bdf86.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 
 
 </head>
@@ -119,14 +119,14 @@ div.csl-indent {
   <li><a href="#reproducibility-and-references" id="toc-reproducibility-and-references" class="nav-link" data-scroll-target="#reproducibility-and-references"><span class="header-section-number">12</span> Reproducibility and References</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">13</span> References</a></li>
   </ul>
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="writeup-skeleton.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="../../writeup-skeleton.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
 </div>
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Capstone Project Write-Up</h1>
-<p class="subtitle lead">Replace with your project title</p>
+<p class="subtitle lead">Portfolio Resilience: Backtesting Asset Allocation Strategies During Financial Crises</p>
 </div>
 
 
@@ -136,16 +136,15 @@ div.csl-indent {
     <div>
     <div class="quarto-title-meta-heading">Authors</div>
     <div class="quarto-title-meta-contents">
-             <p>Your Name </p>
-             <p>Teammate Two </p>
-             <p>Teammate Three </p>
+             <p>Dane Herrin </p>
+             <p>Alexander Jackson </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">June 8, 2026</p>
+      <p class="date">June 9, 2026</p>
     </div>
   </div>
   
@@ -181,12 +180,12 @@ div.csl-indent {
 <tbody>
 <tr class="odd">
 <td></td>
-<td>Owner Product Lead</td>
+<td>Dane Herrin dmherrin@willamette.edu</td>
 <td></td>
 </tr>
 <tr class="even">
 <td></td>
-<td></td>
+<td>Alex Jackson</td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -194,10 +193,15 @@ div.csl-indent {
 <td></td>
 <td></td>
 </tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+</tr>
 </tbody>
 </table>
 <p><strong>Peer Stakeholder POs:</strong> <em>(from lookup)</em></p>
-<p><strong>Repository:</strong> <code>https://github.com/your-org/your-repo</code></p>
+<p><strong>Repository:</strong> <code>https://github.com/your-org/data510--Quant-Back-Testing-</code></p>
 </section>
 <section id="abstract" class="level1" data-number="2">
 <h1 data-number="2"><span class="header-section-number">2</span> Abstract</h1>
@@ -205,15 +209,18 @@ div.csl-indent {
 </section>
 <section id="introduction-problem-and-research-questions" class="level1" data-number="3">
 <h1 data-number="3"><span class="header-section-number">3</span> Introduction: Problem and Research Questions</h1>
-<!-- Paste and revise from M1 proposal Section 2. Note any changes since M1. -->
-<p><strong>Problem statement:</strong></p>
-<p><strong>Primary research question:</strong></p>
-<p><strong>Secondary questions (if any):</strong></p>
-<p><strong>Changes since M1 proposal:</strong> <em>(none yet, or explain pivot)</em></p>
+<p>Many stakeholders evaluate portfolios based on expected returns, recent performance, or exposure to popular sectors. However, financial crises often reveal risks that are not obvious during normal market conditions. Portfolios that appear strong during growth years may become fragile when volatility rises, correlations shift, and drawdowns accelerate. This project focuses on backtesting different portfolios across periods of financial stress. The goal is to evaluate how different sectors and asset classes behave during crisis periods compared to normal market conditions. The project will compare return potential, downside protection, volatility, recovery behavior, and risk-adjusted performance across multiple portfolio strategies.</p>
+<p><strong>Problem statement:</strong> Stakeholders often construct or evaluate portfolios based on expected gains without fully understanding how those portfolios behave during financial crises and periods of market uncertainty.</p>
+<p><strong>Primary research question:</strong> How can portfolio optimization help stakeholders construct portfolios that preserve return potential while reducing drawdowns during periods of financial crisis and market uncertainty?</p>
+<p><strong>Secondary questions (if any):</strong> Do drawdown-resistant portfolios experience significantly lower gains during growth years compared to regular market indexes? How does portfolio performance during crisis periods compare to performance during normal market conditions? How are Sharpe and Sortino ratios affected during periods of uncertainty compared to periods of growth? How do different asset classes and sectors, such as technology, energy, real estate, consumer stapl</p>
+<p><strong>Changes since M1 proposal:</strong> <em>none yet</em></p>
 </section>
 <section id="impact-and-stakeholders" class="level1" data-number="4">
 <h1 data-number="4"><span class="header-section-number">4</span> Impact and Stakeholders</h1>
-<!-- Paste from M1 proposal Section 3. -->
+<p>The main stakeholders include: * Investors * Portfolio managers * Financial analysts * Finance educators * Investment clubs * Risk managers * Students studying finance or portfolio analytics</p>
+<ul>
+<li>If successful, this project will help stakeholders understand how portfolio construction choices affect performance during both growth periods and crisis periods. The project will show how drawdowns, volatility, recovery time, Sharpe ratio, and Sortino ratio change across different market environments.</li>
+</ul>
 </section>
 <section id="related-work-and-background" class="level1" data-number="5">
 <h1 data-number="5"><span class="header-section-number">5</span> Related Work and Background</h1>
@@ -222,7 +229,18 @@ div.csl-indent {
 </section>
 <section id="data-and-data-engineering" class="level1" data-number="6">
 <h1 data-number="6"><span class="header-section-number">6</span> Data and Data Engineering</h1>
-<!-- Paste from M1 Sections 4 and 5; update with actual pipeline state after M2. -->
+<ul>
+<li>The project will use a combination of individual equities, sector ETFs, and benchmark ETFs.</li>
+<li>Potential asset groups include:
+<ul>
+<li>Technology: Apple, Microsoft, Nvidia, Amazon, Google, Meta, Broadcom, Tesla</li>
+<li>Energy: ExxonMobil, Chevron, ConocoPhillips, EOG Resources, Schlumberger, utilities, and energy-related holdings</li>
+<li>Real estate: VNQ or similar REIT ETF</li>
+<li>Consumer staples: Walmart, Costco, Target, Procter &amp; Gamble, Coca-Cola, PepsiCo, General Mills, and similar defensive consumer names</li>
+<li>Defensive assets: Treasury ETF or bond ETF</li>
+<li>Benchmarks: SPY, QQQ, BND, Fama-French Rm-Rf market composite</li>
+</ul></li>
+</ul>
 <p><strong>Sources:</strong></p>
 <table class="caption-top table">
 <thead>
@@ -242,13 +260,13 @@ div.csl-indent {
 </table>
 <p><strong>Engineering summary:</strong> Raw data in <code>data/raw/</code>; processed panel in <code>data/processed/</code>; ingest scripts in <code>src/ingest/</code>.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Replace with your project data when ready:</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Replace with your project data when ready:</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># panel &lt;- readRDS(here::here("data/processed/analysis_panel.rds"))</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># nrow(panel)</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(<span class="fu">data.frame</span>(</span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">check =</span> <span class="fu">c</span>(<span class="st">"Rows"</span>, <span class="st">"Counties"</span>, <span class="st">"Date range"</span>),</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">status =</span> <span class="fu">c</span>(<span class="st">"stub"</span>, <span class="st">"stub"</span>, <span class="st">"stub"</span>)</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div id="tbl-data-qc" class="cell quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-data-qc-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -286,12 +304,12 @@ Table&nbsp;1: Example QC summary (replace with your panel)
 </section>
 <section id="ethics-and-responsible-use" class="level1" data-number="7">
 <h1 data-number="7"><span class="header-section-number">7</span> Ethics and Responsible Use</h1>
-<!-- Paste from M1 Section 8; expand with project-specific limits. -->
 <ul>
-<li><strong>Privacy:</strong></li>
-<li><strong>Fairness / equity:</strong></li>
-<li><strong>Limitations of setting:</strong></li>
-<li><strong>Non-causal framing:</strong> <em>(if observational)</em></li>
+<li><p><strong>This project could be misread as recommending specific investments. To avoid that, all results will be framed as historical analysis, not financial advice. The project will clearly state that past performance does not guarantee future results.</strong></p></li>
+<li><p><strong>Privacy:</strong> All data used is free and open source with no identifiable ethical concerns.</p></li>
+<li><p><strong>Fairness / equity:</strong> All data used is available to everyone and as fairly represented as possible.</p></li>
+<li><p><strong>Limitations of setting:</strong> Backtesting can create false confidence if portfolios are built using knowledge of what performed well historically. This can create a survivorship bias.</p></li>
+<li><p><strong>Non-causal framing:</strong> We will address this by documenting portfolio construction rules before evaluation and avoiding claims that the results will hold in future crises.</p></li>
 </ul>
 </section>
 <section id="methods-and-evaluation" class="level1" data-number="8">
@@ -334,8 +352,8 @@ Figure&nbsp;1: Replace with a methods diagram or exploratory plot
 <section id="reproducibility-and-references" class="level1" data-number="12">
 <h1 data-number="12"><span class="header-section-number">12</span> Reproducibility and References</h1>
 <p><strong>Reproduce main results:</strong></p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> your-repo</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render deliverables/M4-writeup-draft/writeup.qmd</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> your-repo</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render deliverables/M4-writeup-draft/writeup.qmd</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p><strong>Dependencies:</strong> <code>requirements.txt</code> or <code>renv.lock</code> in repo root.</p>
 <p><strong>Data:</strong> URLs and approval status documented in <code>docs/data-dictionary.md</code>.</p>
 </section>
@@ -420,13 +438,14 @@ Reid, C. E., M. Brauer, F. H. Johnston, et al. 2016. <span>“Critical Review of
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

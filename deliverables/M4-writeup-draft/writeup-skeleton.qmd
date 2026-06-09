@@ -37,13 +37,14 @@ execute:
 
 | Name | Role | Willamette email |
 |------|------|------------------|
-| | Owner Product Lead | |
+| | Dane Herrin dmherrin@willamette.edu
+ | | Alex Jackson 
 | | | |
 | | | |
 
 **Peer Stakeholder POs:** *(from lookup)*
 
-**Repository:** `https://github.com/your-org/your-repo`
+**Repository:** `https://github.com/your-org/data510--Quant-Back-Testing-`
 
 # Abstract
 
@@ -51,19 +52,36 @@ execute:
 
 # Introduction: Problem and Research Questions
 
-<!-- Paste and revise from M1 proposal Section 2. Note any changes since M1. -->
+Many stakeholders evaluate portfolios based on expected returns, recent performance, or exposure to popular sectors. However, financial crises often reveal risks that are not obvious during normal market conditions. Portfolios that appear strong during growth years may become fragile when volatility rises, correlations shift, and drawdowns accelerate.
+This project focuses on backtesting different portfolios across periods of financial stress. The goal is to evaluate how different sectors and asset classes behave during crisis periods compared to normal market conditions. The project will compare return potential, downside protection, volatility, recovery behavior, and risk-adjusted performance across multiple portfolio strategies.
 
-**Problem statement:**
 
-**Primary research question:**
+**Problem statement:** Stakeholders often construct or evaluate portfolios based on expected gains without fully understanding how those portfolios behave during financial crises and periods of market uncertainty.
 
-**Secondary questions (if any):**
+**Primary research question:**  How can portfolio optimization help stakeholders construct portfolios that preserve return potential while reducing drawdowns during periods of financial crisis and market uncertainty?
 
-**Changes since M1 proposal:** *(none yet, or explain pivot)*
+**Secondary questions (if any):** Do drawdown-resistant portfolios experience significantly lower gains during growth years compared to regular market indexes?
+How does portfolio performance during crisis periods compare to performance during normal market conditions?
+How are Sharpe and Sortino ratios affected during periods of uncertainty compared to periods of growth?
+How do different asset classes and sectors, such as technology, energy, real estate, consumer stapl
+
+
+**Changes since M1 proposal:** *none yet*
 
 # Impact and Stakeholders
 
-<!-- Paste from M1 proposal Section 3. -->
+The main stakeholders include:
+* Investors
+* Portfolio managers
+* Financial analysts
+* Finance educators
+* Investment clubs
+* Risk managers
+* Students studying finance or portfolio analytics
+
+- If successful, this project will help stakeholders understand how portfolio construction choices affect performance during both growth periods and crisis periods. The project will show how drawdowns, volatility, recovery time, Sharpe ratio, and Sortino ratio change across different market environments.
+
+
 
 # Related Work and Background
 
@@ -73,13 +91,21 @@ Wildfire smoke and respiratory health are well studied at regional scale [@reid2
 
 # Data and Data Engineering
 
-<!-- Paste from M1 Sections 4 and 5; update with actual pipeline state after M2. -->
+- The project will use a combination of individual equities, sector ETFs, and benchmark ETFs. 
+- Potential asset groups include:
+  * Technology: Apple, Microsoft, Nvidia, Amazon, Google, Meta, Broadcom, Tesla
+  * Energy: ExxonMobil, Chevron, ConocoPhillips, EOG Resources, Schlumberger, utilities, and energy-related holdings
+  * Real estate: VNQ or similar REIT ETF
+  * Consumer staples: Walmart, Costco, Target, Procter & Gamble, Coca-Cola, PepsiCo, General Mills, and similar defensive consumer names
+  * Defensive assets: Treasury ETF or bond ETF
+  * Benchmarks: SPY, QQQ, BND, Fama-French Rm-Rf market composite
+
 
 **Sources:**
 
 | Source | Role | Access |
 |--------|------|--------|
-| | | |
+| 
 
 **Engineering summary:** Raw data in `data/raw/`; processed panel in `data/processed/`; ingest scripts in `src/ingest/`.
 
@@ -99,12 +125,12 @@ knitr::kable(data.frame(
 
 # Ethics and Responsible Use
 
-<!-- Paste from M1 Section 8; expand with project-specific limits. -->
+- **This project could be misread as recommending specific investments. To avoid that, all results will be framed as historical analysis, not financial advice. The project will clearly state that past performance does not guarantee future results.**
 
-- **Privacy:**
-- **Fairness / equity:**
-- **Limitations of setting:**
-- **Non-causal framing:** *(if observational)*
+- **Privacy:** All data used is free and open source with no identifiable ethical concerns.
+- **Fairness / equity:** All data used is available to everyone and as fairly represented as possible.
+- **Limitations of setting:** Backtesting can create false confidence if portfolios are built using knowledge of what performed well historically. This can create a survivorship bias. 
+- **Non-causal framing:** We will address this by documenting portfolio construction rules before evaluation and avoiding claims that the results will hold in future crises.
 
 # Methods and Evaluation
 
