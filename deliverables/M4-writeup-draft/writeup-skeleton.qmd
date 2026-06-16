@@ -1,0 +1,210 @@
+---
+title: "Capstone Project Write-Up"
+subtitle: "Portfolio Resilience: Backtesting Asset Allocation Strategies During Financial Crises"
+author:
+  - "Dane Herrin"
+  - "Alexander Jackson"
+date: today
+bibliography: refs.bib
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    number-sections: true
+  pdf:
+    toc: true
+    number-sections: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+<!--
+  DATA 510 write-up skeleton (Week 5 Quarto lecture).
+
+  Copy this file to your DS3 repo:
+    deliverables/M4-writeup-draft/writeup.qmd
+
+  Week 5: paste prose from your M1 proposal into Introduction, Data, Ethics, Methods.
+  Week 7+: replace stubs with real results from notebooks/ and src/.
+  Week 12 (M4): methods and findings should be stable; render PDF + HTML for submission.
+-->
+
+# Title, Team, and Affiliations
+
+**Project title:** *(same as charter)*
+
+| Name | Role | Willamette email |
+|------|------|------------------|
+| | Dane Herrin dmherrin@willamette.edu
+ | | Alex Jackson 
+| | | |
+| | | |
+
+**Peer Stakeholder POs:** *(from lookup)*
+
+**Repository:** `https://github.com/your-org/data510--Quant-Back-Testing-`
+
+# Abstract
+
+*(150 to 250 words after you have results. Summarize: problem, approach, key finding, impact, limitation. Write this section last.)*
+
+# Introduction: Problem and Research Questions
+
+Many stakeholders evaluate portfolios based on expected returns, recent performance, or exposure to popular sectors. However, financial crises often reveal risks that are not obvious during normal market conditions. Portfolios that appear strong during growth years may become fragile when volatility rises, correlations shift, and drawdowns accelerate.
+This project focuses on backtesting different portfolios across periods of financial stress. The goal is to evaluate how different sectors and asset classes behave during crisis periods compared to normal market conditions. The project will compare return potential, downside protection, volatility, recovery behavior, and risk-adjusted performance across multiple portfolio strategies.
+
+
+**Problem statement:** Stakeholders often construct or evaluate portfolios based on expected gains without fully understanding how those portfolios behave during financial crises and periods of market uncertainty.
+
+**Primary research question:**  How can portfolio optimization help stakeholders construct portfolios that preserve return potential while reducing drawdowns during periods of financial crisis and market uncertainty?
+
+**Secondary questions (if any):** Do drawdown-resistant portfolios experience significantly lower gains during growth years compared to regular market indexes?
+How does portfolio performance during crisis periods compare to performance during normal market conditions?
+How are Sharpe and Sortino ratios affected during periods of uncertainty compared to periods of growth?
+How do different asset classes and sectors, such as technology, energy, real estate, consumer stapl
+
+
+**Changes since M1 proposal:** *none yet*
+
+# Impact and Stakeholders
+
+The main stakeholders include:
+* Investors
+* Portfolio managers
+* Financial analysts
+* Finance educators
+* Investment clubs
+* Risk managers
+* Students studying finance or portfolio analytics
+
+- If successful, this project will help stakeholders understand how portfolio construction choices affect performance during both growth periods and crisis periods. The project will show how drawdowns, volatility, recovery time, Sharpe ratio, and Sortino ratio change across different market environments.
+
+
+
+# Related Work and Background
+
+<!-- Brief cited context. Example: -->
+
+Wildfire smoke and respiratory health are well studied at regional scale [@reid2016; @liu2016]. This project applies county-level public data to Oregon specifically.
+
+# Data and Data Engineering
+
+- The project will use a combination of individual equities, sector ETFs, and benchmark ETFs. 
+- Potential asset groups include:
+  * Technology: Apple, Microsoft, Nvidia, Amazon, Google, Meta, Broadcom, Tesla
+  * Energy: ExxonMobil, Chevron, ConocoPhillips, EOG Resources, Schlumberger, utilities, and energy-related holdings
+  * Real estate: VNQ or similar REIT ETF
+  * Consumer staples: Walmart, Costco, Target, Procter & Gamble, Coca-Cola, PepsiCo, General Mills, and similar defensive consumer names
+  * Defensive assets: Treasury ETF or bond ETF
+  * Benchmarks: SPY, QQQ, BND, Fama-French Rm-Rf market composite
+
+
+**Sources:**
+
+| Source | Role | Access |
+|--------|------|--------|
+| 
+
+**Engineering summary:** Raw data in `data/raw/`; processed panel in `data/processed/`; ingest scripts in `src/ingest/`.
+
+```{r}
+#| label: tbl-data-qc
+#| tbl-cap: "Example QC summary (replace with your panel)"
+#| echo: true
+
+# Replace with your project data when ready:
+# panel <- readRDS(here::here("data/processed/analysis_panel.rds"))
+# nrow(panel)
+knitr::kable(data.frame(
+  check = c("Rows", "Counties", "Date range"),
+  status = c("stub", "stub", "stub")
+))
+```
+
+# Ethics and Responsible Use
+
+- **This project could be misread as recommending specific investments. To avoid that, all results will be framed as historical analysis, not financial advice. The project will clearly state that past performance does not guarantee future results.**
+
+- **Privacy:** All data used is free and open source with no identifiable ethical concerns.
+- **Fairness / equity:** All data used is available to everyone and as fairly represented as possible.
+- **Limitations of setting:** Backtesting can create false confidence if portfolios are built using knowledge of what performed well historically. This can create a survivorship bias. 
+- **Non-causal framing:** We will address this by documenting portfolio construction rules before evaluation and avoiding claims that the results will hold in future crises.
+
+# Methods and Evaluation
+
+<!-- Paste from M1 Section 6; tighten once analysis is fixed. -->
+
+**Design:**
+
+**Primary analysis:**
+
+**Evaluation metrics:**
+
+**Train / validation / holdout:**
+
+```{r}
+#| label: fig-methods-placeholder
+#| fig-cap: "Replace with a methods diagram or exploratory plot"
+#| echo: false
+#| fig-width: 5
+#| fig-height: 3
+
+plot(1, 1, type = "n", xlab = "", ylab = "", main = "Methods figure placeholder")
+text(1, 1, "Replace after M2/M3")
+```
+
+# Results and Visualizations
+
+<!-- Fill after M2 data summary and M3 poster figures. -->
+
+*(Stub: key findings with @fig-methods-placeholder and tables.)*
+
+# Discussion, Limitations, and Future Work
+
+**Interpretation:**
+
+**Limitations:** *(tie to actual data and design)*
+
+**Future work:**
+
+# Conclusions and Recommendations
+
+*(Short, stakeholder-facing takeaways.)*
+
+# Reproducibility and References
+
+**Reproduce main results:**
+
+```bash
+cd your-repo
+quarto render deliverables/M4-writeup-draft/writeup.qmd
+```
+
+**Dependencies:** `requirements.txt` or `renv.lock` in repo root.
+
+**Data:** URLs and approval status documented in `docs/data-dictionary.md`.
+
+# References
+
+::: {#refs}
+:::
+
+<!-- Create refs.bib alongside this file. Example entries: -->
+
+<!--
+@article{liu2016,
+  title={Wildfire-specific fine particulate matter and risk of hospital admissions in urban and rural counties},
+  author={Liu, J. C. and others},
+  journal={Epidemiology},
+  year={2016}
+}
+
+@article{reid2016,
+  title={Critical review of health impacts of wildfire smoke exposure},
+  author={Reid, C. E. and others},
+  journal={Environmental Health Perspectives},
+  year={2016}
+}
+-->
